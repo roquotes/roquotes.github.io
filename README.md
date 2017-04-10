@@ -1,4 +1,4 @@
 
 ```
-gulp watch
+gulp watch to start
 ```
