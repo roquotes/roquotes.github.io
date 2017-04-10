@@ -1,0 +1,102 @@
+/*Variables and Mixins-------------------------------
+---------------------------------------------------*/
+$color-hot: #cd4a6b;
+$color-white: #ffffff;
+$color-muted: #e5b8cf;
+
+::selection {
+    background: $color-muted;
+    color: $color-white;
+    }
+
+::-moz-selection {
+	background: $color-muted;
+	color: $color-white;
+    }
+
+@mixin transition {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    }
+
+@font-face {
+  font-family: 'ITCBaskerville';
+  src: url('../fonts/317AAC_0_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/317AAC_0_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/317AAC_0_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/317AAC_0_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/317AAC_0_0.ttf')  format('truetype') /* Safari, Android, iOS */
+		}
+
+/*Global Styles--------------------------------------
+---------------------------------------------------*/
+
+body {
+		font-family:'ITCBaskerville', serif;
+		-webkit-font-smoothing: antialiased;
+		background-color: $color-hot;
+		color: $color-white;
+		text-align: center;
+    }
+
+#quoteDisplay {
+		font-size: 2em;
+		line-height: 1.25em;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+		min-height:220px;
+		padding:20px;
+		}
+
+button {
+		align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: $color-white;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 14px 18px 12px 18px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $color-white;
+    border-image: none;
+		text-rendering: auto;;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 1em 'ITCBaskerville', serif;
+		font-weight: bold;
+		line-height: 1em;
+		-webkit-appearance: button;
+		cursor: pointer;
+		position:relative;
+		}
+
+button:focus {
+		outline:0;
+		}
+
+button:active {
+		top:2px;
+		left: 2px;
+		}
+
+img {
+    width:100%;
+    height:auto;
+    }
+
+.icon {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 50px;
+		margin-top: 60px;
+		margin-bottom:15px;
+		}
