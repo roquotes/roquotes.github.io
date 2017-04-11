@@ -39,50 +39,43 @@ body {
 		text-align: center;
     }
 
-#quoteDisplay {
+#output {
 		font-size: 2em;
 		line-height: 1.25em;
 		max-width: 700px;
 		margin-left: auto;
 		margin-right: auto;
-		min-height:220px;
+		min-height:200px;
 		padding:20px;
 		}
 
-button {
-		align-items: flex-start;
-    text-align: center;
-    cursor: default;
+span#prev_button,
+span#next_button {
+    display: inline-block;
+    min-width:130px;
     color: $color-white;
-    background-color: transparent;
     box-sizing: border-box;
-    padding: 14px 18px 12px 18px;
+    padding: 14px 5px 12px 5px;
     border-width: 2px;
     border-style: solid;
     border-color: $color-white;
-    border-image: none;
-		text-rendering: auto;;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    margin: 0em 0em 0em 0em;
     font: 1em 'ITCBaskerville', serif;
-		font-weight: bold;
-		line-height: 1em;
-		-webkit-appearance: button;
-		cursor: pointer;
-		position:relative;
-		}
+    font-weight: bold;
+    line-height: 1em;
+    cursor: pointer;
+    position:relative;
+    }
 
-button:focus {
-		outline:0;
-		}
+span#prev_button {
+    margin-right:5px;
+    }
 
-button:active {
+span#next_button {
+    margin-left:5px;
+    }
+
+span#prev_button:active,
+span#next_button:active {
 		top:2px;
 		left: 2px;
 		}
@@ -96,7 +89,7 @@ img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 50px;
-		margin-top: 60px;
-		margin-bottom:15px;
+		max-width:150px;
+		margin-top: 40px;
+		margin-bottom:5px;
 		}
