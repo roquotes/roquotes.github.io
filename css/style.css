@@ -35,7 +35,7 @@ body {
 span#prev_button,
 span#next_button {
   display: inline-block;
-  min-width: 130px;
+  min-width: 140px;
   color: #ffffff;
   box-sizing: border-box;
   padding: 14px 5px 12px 5px;
@@ -49,10 +49,10 @@ span#next_button {
   position: relative; }
 
 span#prev_button {
-  margin-right: 5px; }
+  margin-right: 2px; }
 
 span#next_button {
-  margin-left: 5px; }
+  margin-left: 2px; }
 
 span#prev_button:active,
 span#next_button:active {
