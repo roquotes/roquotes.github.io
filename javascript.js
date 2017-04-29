@@ -1,6 +1,7 @@
 var arr = [
 "No one cares if you tried if you can't do it.",
 "Even if we throw it in the garbage, it's still cheaper.",
+"I didn't come here to learn!",
 "I don't need to be dainty. I'm fucking starving. Give me a sandwich.",
 "How do I go back to living a normal life after traveling? My expectations are way beyond the realm of reality.",
 "I only drank a little water because I thought I was choking.",
