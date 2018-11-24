@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Butler';
+  src: url("../fonts/butler_regular-webfont.woff");
+  src: url("../fonts/butler_regular-webfont.woff2");
+}
+
+.icon {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.icon-inside {
+  width: 100px;
+  height:auto;
+  padding-top: 20px;
+  }
+
+.frame {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding:20px;
+}
+
+.body {
+  background-color: #34044c;
+  font-family: 'Butler';
+}
+
+.frame-text {
+  color: #fff;
+  text-align:center;
+  font-size: 40px;
+  line-height: 42px;
+}
+
+@media screen and (min-width: 768px){
+  .frame-text {
+    font-size: 50px;
+    line-height: 52px;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .frame-text {
+    font-size: 60px;
+    line-height: 62px;
+  }
+}
